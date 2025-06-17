@@ -1,0 +1,6 @@
+dependencies:
+- name: job-runner
+  repository: file://charts/job-runner
+  version: 0.1.0
+digest: sha256:ac04b4927f0ae74daf3009212aa4f7296fdea802f0ed58212d9339fb7ca02eb6
+generated: "2025-06-17T17:49:00.945228-04:00"
