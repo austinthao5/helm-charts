@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ include "job-runner.fullname" . }}
+  name: execution-environments-env-global-models-1
 spec:
   template:
     spec:
