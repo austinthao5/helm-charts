@@ -1,3 +1,7 @@
+app:
+  name: testVar
+  version: <+variable.testVar>
+  
 replicaCount: 1
 
 image:
