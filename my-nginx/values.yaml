@@ -5,7 +5,7 @@ app:
 replicaCount: 1
 
 image:
-  repository: <+project.variables.testVar>
+  repository: <+project.variable.testVar>
   tag: <+variable.testVar>
   pullPolicy: IfNotPresent
 
