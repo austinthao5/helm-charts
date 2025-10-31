@@ -5,7 +5,7 @@ app:
 replicaCount: 1
 
 image:
-  repository: <+project.variable.testVar>
+  repository: <+variable.CIS_CAT_ASSESOR_RHEL8_PASS_THRESHOLD>
   tag: <+variable.testVar>
   pullPolicy: IfNotPresent
 
